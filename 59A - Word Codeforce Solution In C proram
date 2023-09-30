@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include <ctype.h>
+int main()
+{
+    int a=0,b=0;
+    char s[100];
+    scanf("%s",s);
+    for(int i=0; s[i] != '\0'; i++ )
+    {
+        if (islower(s[i]))
+            a++;
+       else if (isupper(s[i]))
+            b++;
+    }
+    if(a<b)
+    {
+        for (int i = 0; s[i] != '\0'; i++) {
+        s[i] = toupper(s[i]);
+    }
+    }
+    else
+    {
+        for (int i = 0; s[i] != '\0'; i++)
+            {
+              s[i] = tolower(s[i]);
+             }
+    }
+    printf("%s\n",s);
+    return 0;
+}
