@@ -6,7 +6,7 @@ int main()
     int n,c=0;
     scanf("%lld",&a);
      for ( ;a != 0;)
-//while(a!=0) //
+//while(a!=0) /
     {
 
         if(a%10==7 ||a%10==4)
