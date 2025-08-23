@@ -4,8 +4,9 @@ int main() {
     string s;
     cin >> s;
     cout << "Hello" <<s;
-   // Print out 
+   // Print out .
     
 
 }
+
 
